@@ -1,18 +1,18 @@
 
 
-
 class Demo {
 
 	public static void main(String[]args) {
 
-		float num = 120f;
+		float perc = 80.00f;
 
-		if(num%6==0) {
+		if(perc <= 85.00f && perc > 75.00f) {
 
-			System.out.println("is divisible by 6");
-		}
-		else {
-			System.out.println("not divisible");
+			System.out.println("Engineering");
+
+		} else {
+
+			System.out.println("Other field");
 		}
 	}
 }

@@ -1,23 +1,17 @@
 
+
 class Demo {
 
 	public static void main(String[]args) {
 
-		int num = 110;
+		int num = 100;
 
-		if(num>=1 && num<=1000) {
-
-			System.out.println(num+" Number is in the range of 1 to 1000");
-		
-		} else if(num<0) {
+		if(num>0 && num<1000) {
 			
-			System.out.println(num+" Number is not the range of 1 to 1000");
-
+			System.out.println(num+" is in the range betn 1-1000");
 		} else {
-
-			System.out.println(num+" Number is not the range of 1 to 1000");
+			System.out.println("not in the range 1 to 1000");
 		}
 	}
 }
 
-			

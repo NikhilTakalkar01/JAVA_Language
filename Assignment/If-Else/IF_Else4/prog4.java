@@ -4,22 +4,15 @@ class Demo {
 
 	public static void main(String[]args) {
 
-		double perc = 90.00;
+		float perc = 85.00f;
 
-		if(perc>85.00) {
+		if(perc >= 85.00f) {
 
-			System.out.println("Medical");
-		}
-		else if(perc<=85.00 && perc>75.00) {
+			System.out.println("Medical Field");
 
-			System.out.println("Engineering");
-		}
-		else if(perc<+75.00 && perc>=65.00) {
+		} else {
 
-			System.out.println("pharmacy or bachelor in science");
-		}
-		else {
-			System.out.println("Arts / Commerce");
+			System.out.println("Other field");
 		}
 	}
 }
